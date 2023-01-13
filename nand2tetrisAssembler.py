@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Aug 20 16:58:40 2022
+NOTE:  THIS IS A VERY UNPOLISHED BUT WORKING SAMPLE FOR ONLINE USE.  VERY INEFFICIENT BUT WORKS AS INTENDED.  FINAL TRIMED VERSION AVAILABLE UPON REQUEST.
+Example differences:  Does not use case/switch statements for longer comparison checks and isOnlyInt function does not outright compare to just if in '1234567890' string.
 
-@author: Darby
+@author: ybrad
 HACK Computer Assembler. Converts given .asm files into .hack files of machine code (purely 0s and 1s).
 For sake of verification, produces the required .hack file along with a Disassembled .asm file for verification purposes.
 
